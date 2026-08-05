@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/dbterm.svg" alt="DB-Term database icon" width="200">
+<img src="assets/dbterm.svg" alt="DB-Term database icon" width="180">
 
 ### Query, inspect, and navigate your databases without leaving the keyboard.
 
