@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/dbterm.svg" alt="DB-Term: database workflow in your terminal" width="620">
+<img src="assets/dbterm.svg" alt="DB-Term database icon" width="160">
+
+# DB-Term
 
 ### Query, inspect, and navigate your databases without leaving the keyboard.
 
