@@ -2,6 +2,14 @@
   <title id="title">DB-Term</title>
   <desc id="description">A minimal neon database</desc>
   <defs>
+    <style>
+      .wordmark { fill: #172554; }
+      .tagline { fill: #475569; }
+      @media (prefers-color-scheme: dark) {
+        .wordmark { fill: #f3f5ff; }
+        .tagline { fill: #b7c2df; }
+      }
+    </style>
     <linearGradient id="canvas" x1="24" y1="18" x2="224" y2="224" gradientUnits="userSpaceOnUse">
       <stop stop-color="#141a36"/>
       <stop offset="1" stop-color="#080b18"/>
@@ -25,6 +33,6 @@
   <path d="M80 76v79c0 9 18 15 40 15s40-6 40-15V76" fill="none" stroke="url(#neon)" stroke-linejoin="round" stroke-width="7"/>
   <path d="M80 115c0 9 18 15 40 15s40-6 40-15M80 155c0 9 18 15 40 15s40-6 40-15" fill="none" stroke="url(#neon)" stroke-width="7"/>
   <circle cx="120" cy="194" r="5" fill="#68f2bb" filter="url(#glow)"/>
-  <text x="266" y="113" fill="#f3f5ff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">DB-Term</text>
-  <text x="269" y="156" fill="#9ba5ca" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="1">DATABASE WORKFLOW, IN YOUR TERMINAL</text>
+  <text class="wordmark" x="266" y="113" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">DB-Term</text>
+  <text class="tagline" x="269" y="156" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="1">DATABASE WORKFLOW, IN YOUR TERMINAL</text>
 </svg>
