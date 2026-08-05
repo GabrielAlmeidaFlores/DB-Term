@@ -25,30 +25,6 @@ Connect to PostgreSQL, MySQL, or SQL Server. Browse schemas, preview tables, run
 |---|---|---|
 | Store connection passwords locally with AES-256-GCM encryption. | Load databases, schemas, tables, views, columns, and foreign keys as you need them. | Review results in a keyboard-navigable grid, copy cells, filter, sort, and cancel long-running queries. |
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  󰆼 DB-Term                                         [?] Help [q] Quit ║
-╠════════════════╦═════════════════════════════════════════════════════╣
-║  Connections   ║ 󰦕 Editor ─── local-pg › public ─── [Ctrl+↵] Run   ║
-║                ║                                                     ║
-║ 󰆼  local-pg  ● ║  SELECT id, name, email                             ║
-║  ▼  public     ║  FROM users                                         ║
-║     󰓫 Tables   ║  WHERE active = true                                ║
-║     │  users   ║  ORDER BY name;                                     ║
-║     │  orders  ║                                                     ║
-║     󰒔 Views    ╠═════════════════════════════════════════════════════╣
-║  󰆼  mysql-dev ○║  󰓪 Results  42 rows  󱑍 0.08s                        ║
-║                ║                                                     ║
-║                ║  id  │ name    │ email            │ active          ║
-║  New [n]       ║ ─────┼─────────┼──────────────────┼───────          ║
-║  Delete [d]    ║    1 │ Alice   │ alice@example.com│ true            ║
-╠════════════════╩═════════════════════════════════════════════════════╣
-║  󰆼 local-pg  ›  public    42 rows  󱑍 0.08s   [s] Settings  [?] Help ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
----
-
 ## Built for Database Work
 
 | | Capability | What it gives you |
